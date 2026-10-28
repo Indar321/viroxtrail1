@@ -1,0 +1,1 @@
+Add reviewed SQL migrations here before connecting production data. Define products, product_variants, orders, order_items, payments, inventory_movements and admin roles. Enable Row Level Security and restrict privileged mutations to trusted server-side code. Never use a service-role key in browser code.

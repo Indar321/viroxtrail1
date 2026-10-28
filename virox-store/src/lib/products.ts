@@ -1,0 +1,7 @@
+export type Product = { id: string; slug: string; name: string; price: number; tag: string; image: string; colors: string[]; description: string };
+export const products: Product[] = [
+ {id:'rage-tee',slug:'rage-oversized-tee',name:'Rage Oversized Tee',price:999,tag:'BESTSELLER',image:'https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=85',colors:['#151515','#e8e6e2'],description:'A statement oversized tee built for everyday rotation. Heavy-feel streetwear with a bold graphic attitude.'},
+ {id:'freedom-tee',slug:'freedom-oversized-tee',name:'Freedom Oversized Tee',price:999,tag:'NEW DROP',image:'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85',colors:['#f0eee9','#151515'],description:'A clean everyday silhouette with a graphic-led look. Easy to style, made to stand out.'},
+ {id:'butterfly-tee',slug:'butterfly-oversized-tee',name:'Butterfly Oversized Tee',price:999,tag:'TRENDING',image:'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=900&q=85',colors:['#151515','#d7d7d7'],description:'Expressive artwork meets relaxed streetwear proportions for a standout fit.'},
+ {id:'silent-chaos-tee',slug:'silent-chaos-oversized-tee',name:'Silent Chaos Oversized Tee',price:999,tag:'LIMITED',image:'https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=900&q=85',colors:['#efeee9','#151515'],description:'Quiet confidence, loud character. A versatile oversized graphic tee for daily wear.'}
+];
